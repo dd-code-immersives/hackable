@@ -22,6 +22,7 @@ def loginAPI():
     if request.method == 'POST':
         uname,pword = (request.json['username'],request.json['password'])
         g.db = connect_db()
+        g.db.set_trace_callback(print)
         cur = g.db.execute("SELECT * FROM employees WHERE username = '%s' AND password = '%s'" %(uname, hash_pass(pword)))
         if cur.fetchone():
             result = {'status': 'success'}
