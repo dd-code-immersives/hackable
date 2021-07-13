@@ -4,8 +4,8 @@ table, th, td {
 }
 
 .button{
-    background-color: blue;
-    color: white;
+    background-color: #76C4AE;
+    color: #BEE9E4;
     border: none;
     height: 25px;
     width: 100px;
@@ -16,7 +16,7 @@ table, th, td {
     margin: auto;
     width: 1000px;
     text-align: center;
-    border: 2px solid blue;
+    border: 2px solid #7CE0F9;
     padding-bottom: 30px;
 }
 
@@ -37,7 +37,7 @@ table{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
+    background-color: #7CE0F9;
     position: fixed;
     top: 0;
     width: 100%;
@@ -51,7 +51,7 @@ table{
 #navbar ul li a
 {
     display: block;
-    color: white;
+    color: #D3D2B5;
     border-radius: 5px 5px;
     text-align: center;
     padding: 14px 16px;
